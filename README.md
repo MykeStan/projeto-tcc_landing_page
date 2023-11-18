@@ -3,6 +3,8 @@ O projeto consiste em um sistema de gestão para pequenos negócios. Foi criada 
 
 ## 🔨 Funcionalidades do projeto
 
+![landingpage](https://github.com/MykeStan/projeto-tcc_landing_page/assets/127412518/95de73c3-abf4-4e57-aac4-192a020f920b)
+
 ## ✔️ Técnicas e tecnologias utilizadas
 
 As técnicas e tecnologias utilizadas para a página foram:
@@ -15,7 +17,7 @@ As técnicas e tecnologias utilizadas para a página foram:
 
 ## 🎯 Desafio
 - O desafio inicial foi transpor de forma funcional o design/protótipo inicial da página.
-
+[SPGN.pdf](https://github.com/MykeStan/projeto-tcc_landing_page/files/13401708/SPGN.pdf)
 ## 📁 Acesso ao projeto
 
 Você pode [acessar o código fonte do projeto inicial](https://github.com/MykeStan/projeto-tcc_landing_page) ou [baixá-lo](https://github.com/MykeStan/projeto-tcc_landing_page/archive/refs/heads/main.zip).
