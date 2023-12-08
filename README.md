@@ -11,7 +11,7 @@ As técnicas e tecnologias utilizadas para a página foram:
 
 - `JavaScript`:Dinamismo e interatividade
 - `Flex-Box`: Alocamento e dimensionamento
-- `CSS3`: Estilizaçã
+- `CSS3`: Estilização
 - `HTML5`: Linguagem de marcação usada
 - `Media Queries`: Responsividade e adaptação da página
 
