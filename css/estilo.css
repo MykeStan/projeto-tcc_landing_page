@@ -19,12 +19,14 @@ body {
     box-sizing: border-box;
     background-image: url(/images/ft_background.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: auto;
 }
 .cabecalho {
     padding: 3% 5%;
     display: flex;
+    justify-content: space-between;
     gap: 100px;
 }
 .cabecalho__menu {
@@ -42,6 +44,18 @@ body {
     color: #00A9FF;
 }
 .cabecalho__menu__link:hover {
+    color: var(--cor-primaria);
+}
+.cabecalho__menu__link__login_n_signin {
+    display: flex;
+    font-family: var(--font-first);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    text-shadow: 2px 0px 2px #3F1D38;
+    color: #00A9FF;
+}
+.cabecalho__menu__link__login_n_signin:hover {
     color: var(--cor-primaria);
 }
 .apresentacao {
@@ -226,4 +240,91 @@ body {
     .apresentacao__conteudo {
         width: auto;
     }
+}
+/* CSS do Formulário */
+.cabecalho__menu__form {
+    display: flex;
+    gap: 1rem;
+}
+.apresentacao__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario {
+    padding: 0%  5%;
+}
+.apresentacao__conteudo__titulo__login {
+    padding: 50px;
+    font-family: var(--font-third);
+    font-size: 38px;
+    font-weight: 400px;
+    color: var(--cor-secundaria);
+}
+fieldset {
+    border: 0;
+}
+input, select, textarea, button {
+    border-radius: 1em;
+}
+.campo {
+    margin-bottom: 1em;
+    font-family: var(--font-forth);
+    font-size: 20px;
+    color: #232D3F;
+}
+.campo label {
+    margin-bottom: 0.3em;
+    display: flex;
+}
+fieldset .grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+.grupo {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    font-family: var(--font-forth);
+    font-size: 20px;
+    color: #232D3F;
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    font-family: var(--font-forth);
+    font-size: 20px;
+    color: #232D3F;
+    padding: 0.3em;
+    border: 1.5px solid var(--cor-secundaria);
+    box-shadow: inset 2px 2px 2px grey;
+    display: block;
+}
+.campo select option {
+    padding-right: 1em;
+}
+.campo select:focus, .campo input:focus, .campo textarea:focus {
+    background-color: var(--cor-primaria);
+}
+.botao__div {
+    padding: 2% 5%;
+}
+#botao {
+    font-family: var(--font-forth);
+    font-size: 20px;
+    color: #232D3F;
+    font-size: 1.2em;
+    background-color: var(--cor-terciaria);
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: inset 2px 2px 2px grey;
+    text-shadow: 1px 1px 1px grey;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+#botao:hover {
+    background-color: var(--cor-primaria);
+    box-shadow: inset 2px 2px 2px grey;
+    text-shadow: 2px 0px 2px #3F1D38;
 }
