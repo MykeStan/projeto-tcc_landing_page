@@ -3,7 +3,7 @@ O projeto consiste em um sistema de gestão para pequenos negócios. Foi criada 
 
 ## 🔨 Funcionalidades do projeto
 
-![landingpage](https://github.com/MykeStan/projeto-tcc_landing_page/assets/127412518/95de73c3-abf4-4e57-aac4-192a020f920b)
+![landingpage2](https://github.com/MykeStan/projeto-tcc_landing_page/assets/127412518/766b375a-40f8-420b-8800-e85f34af4237)
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
